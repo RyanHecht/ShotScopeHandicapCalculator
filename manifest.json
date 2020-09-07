@@ -1,0 +1,17 @@
+{
+    "name": "ShotScope Handicap Calculator",
+    "version": "0.0.0.1",
+    "manifest_version": 2,
+    "description": "Calculate your handicap from your ShotScope Dashboard",
+    "content_scripts": [
+        {
+            "matches": [
+              "https://dashboard.shotscope.com/",
+              "http://dashboard.shotscope.com/",
+              "https://dashboard.shotscope.com/#",
+              "http://dashboard.shotscope.com/#"
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}

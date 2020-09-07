@@ -1,0 +1,1 @@
+Array.from(document.getElementsByClassName("scorecard-inner")).forEach(function(card, index) {card.click();});
